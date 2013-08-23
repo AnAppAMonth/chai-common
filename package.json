@@ -1,0 +1,43 @@
+{
+    "name": "chai-common",
+
+    "version": "0.0.1",
+
+    "description": "Commonly used Chai.js custom assertions",
+
+    "author": "Feng Qiu <feng@ban90.com>",
+
+    "license": "MIT",
+
+    "keywords": ["chai", "custom", "additional", "common", "assertion"],
+
+    "main" : "./index.js",
+
+    "scripts": {
+        "pretest": "jshint --verbose --config test/jshint.json ./*js test/*js",
+        "test": "make test"
+    },
+
+    "dependencies": {
+        "chai-adhoc": "0.2.x"
+    },
+
+    "devDependencies": {
+        "mocha": "*",
+        "jshint": "*",
+        "chai": "*"
+    },
+
+    "engines": {
+        "node": ">=0.4.x"
+    },
+
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/halfninety/chai-common.git"
+    },
+
+    "bugs": {
+        "url": "https://github.com/halfninety/chai-common/issues"
+    }
+}
