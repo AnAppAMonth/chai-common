@@ -1,6 +1,6 @@
 {
   "name": "chai-common",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Chai.js plugin containing commonly used custom assertions",
   "author": "Feng Qiu <feng@ban90.com>",
   "license": "MIT",
