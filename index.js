@@ -2,7 +2,11 @@
 var adhoc = require('chai-adhoc'),
     format = adhoc.format;
 
-module.exports = function() {
+function common(chai, utils) {
+    var Assertion = chai.Assertion;
+
+    chai.use(adhoc);
+
     adhoc.addAssertion('containAtIndex', function(ctx, target, idx) {
         // Support negative indices if `ctx.obj` has the `length` property.
         if (idx < 0 && typeof ctx.obj.length === 'number') {
@@ -50,4 +54,6 @@ module.exports = function() {
     });
 
     return true;
-};
+}
+
+module.exports = common;

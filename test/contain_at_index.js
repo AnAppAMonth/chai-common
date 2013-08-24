@@ -1,8 +1,11 @@
 
 /* global describe, it */
 /* jshint -W030 */
-var expect = require('chai').expect;
-require('../')();
+var chai = require('chai'),
+    expect = chai.expect,
+    common = require('../');
+
+chai.use(common);
 
 describe('Assertion `containAtIndex`', function() {
     it('should work for strings', function() {

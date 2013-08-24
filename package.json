@@ -1,7 +1,7 @@
 {
   "name": "chai-common",
   "version": "0.0.2",
-  "description": "Commonly used Chai.js custom assertions",
+  "description": "Chai.js plugin containing commonly used custom assertions",
   "author": "Feng Qiu <feng@ban90.com>",
   "license": "MIT",
   "keywords": [
@@ -17,7 +17,7 @@
     "test": "make test"
   },
   "dependencies": {
-    "chai-adhoc": "0.2.x"
+    "chai-adhoc": "0.3.x"
   },
   "devDependencies": {
     "mocha": "*",
